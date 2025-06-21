@@ -5,12 +5,12 @@ This is a simple CRUD (Create, Read, Update, Delete) REST API application built 
 
 ## 📁 Project Structure
 
-src/main/java/com/Baseer/CURD/project/
-├── CurdProjectApplication.java # Main Spring Boot application
-├── SoftwareEngineer.java # JPA Entity
-├── SoftwareEngineerController.java # REST Controller
-├── SoftwareEngineerService.java # Business logic
-└── SoftwareEngineerRepository.java # JPA Repository
+**src/main/java/com/Baseer/CURD/project/**
+**├── CurdProjectApplication.java # Main Spring Boot application**
+**├── SoftwareEngineer.java # JPA Entity**
+**├── SoftwareEngineerController.java # REST Controller**
+**├── SoftwareEngineerService.java # Business logic**
+**└── SoftwareEngineerRepository.java # JPA Repository**
 
 
 ## 🚀 Features
