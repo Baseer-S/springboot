@@ -81,15 +81,15 @@ Prerequisites
 - **Docker & Docker Compose**
 
 # Steps
-** Clone the repository**
+- Clone the repository
 git clone https://github.com/<your-username>/springboot-crud.git
 cd springboot-crud
 
-** Run PostgreSQL using Docker Compose**
-docker-compose up -d
+- Run PostgreSQL using Docker Compose
+     docker-compose up -d
 
-** Run the Spring Boot app**
-./mvnw spring-boot:run
+- Run the Spring Boot app
+     ./mvnw spring-boot:run
 
 
   # Visit the API
