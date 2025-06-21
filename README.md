@@ -52,7 +52,7 @@ services:
     container_name: postgres-spring-boot
     image: postgres:latest
     environment:
-      POSTGRES_USER: amigoscode
+      POSTGRES_USER: baseer
       POSTGRES_PASSWORD: password
       PGDATA: /data/postgres
     volumes:
@@ -103,7 +103,7 @@ docker-compose up -d
 Make sure to configure your application.properties (or application.yml) as:
 
 - spring.datasource.url=jdbc:postgresql://localhost:5332/postgres
-- spring.datasource.username=amigoscode
+- spring.datasource.username=baseer
 - spring.datasource.password=password
 - spring.jpa.hibernate.ddl-auto=update
 - spring.jpa.show-sql=true
