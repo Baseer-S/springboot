@@ -5,12 +5,12 @@ This is a simple CRUD (Create, Read, Update, Delete) REST API application built 
 
 ## 📁 Project Structure
 
-**src/main/java/com/Baseer/CURD/project/**
-**├── CurdProjectApplication.java # Main Spring Boot application**
-**├── SoftwareEngineer.java # JPA Entity**
-**├── SoftwareEngineerController.java # REST Controller**
-**├── SoftwareEngineerService.java # Business logic**
-**└── SoftwareEngineerRepository.java # JPA Repository**
+- src/main/java/com/Baseer/CURD/project/
+- ├── CurdProjectApplication.java # Main Spring Boot application
+- ├── SoftwareEngineer.java # JPA Entity
+- ├── SoftwareEngineerController.java # REST Controller
+- ├── SoftwareEngineerService.java # Business logic
+- └── SoftwareEngineerRepository.java # JPA Repository
 
 
 ## 🚀 Features
@@ -44,7 +44,7 @@ This is a simple CRUD (Create, Read, Update, Delete) REST API application built 
 
 You can run a PostgreSQL container using the provided Docker Compose file.
 📄 docker-compose.yml
-
+```yml
 version: '3.8'
 
 services:
@@ -69,26 +69,26 @@ networks:
 
 volumes:
   db:
-
+```
 
 ## ⚙️ Getting Started
 Prerequisites
 
-**Java 17+**
+- **Java 17+**
 
-**Maven**
+- **Maven**
 
-**Docker & Docker Compose**
+- **Docker & Docker Compose**
 
 # Steps
-# Clone the repository
+** Clone the repository**
 git clone https://github.com/<your-username>/springboot-crud.git
 cd springboot-crud
 
-# Run PostgreSQL using Docker Compose
+** Run PostgreSQL using Docker Compose**
 docker-compose up -d
 
-# Run the Spring Boot app
+** Run the Spring Boot app**
 ./mvnw spring-boot:run
 
 
@@ -102,11 +102,11 @@ docker-compose up -d
 
 Make sure to configure your application.properties (or application.yml) as:
 
-spring.datasource.url=jdbc:postgresql://localhost:5332/postgres
-spring.datasource.username=amigoscode
-spring.datasource.password=password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+- spring.datasource.url=jdbc:postgresql://localhost:5332/postgres
+- spring.datasource.username=amigoscode
+- spring.datasource.password=password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
 
 
 
